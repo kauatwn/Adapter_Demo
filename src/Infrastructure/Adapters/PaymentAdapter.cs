@@ -3,9 +3,9 @@ using Domain.Interfaces.Services;
 
 namespace Infrastructure.Adapters;
 
-public class PaymentAdapter(IPaymentGateway paymentGateway) : IPaymentService
+public class PaymentAdapter(IPaymentGateway gateway) : IPaymentService
 {
-    private IPaymentGateway PaymentGateway { get; } = paymentGateway;
+    private IPaymentGateway Gateway { get; } = gateway;
 
     public void ProcessPayment(double amount)
     {
@@ -16,6 +16,6 @@ public class PaymentAdapter(IPaymentGateway paymentGateway) : IPaymentService
             throw new ArgumentException("The amount must be greater than zero");
         }
 
-        PaymentGateway.MakePayment(amount);
+        Gateway.MakePayment(amount);
     }
 }
