@@ -1,6 +1,6 @@
 ﻿using Domain.Interfaces.Gateways;
 
-namespace Infrastructure.Gateways.Payment;
+namespace Infrastructure.Gateways.Payments;
 
 public class PagBankPaymentGateway : IPaymentGateway
 {
