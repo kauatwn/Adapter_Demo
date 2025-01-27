@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FABC52E6-B448-4E78-B723-F61F053CD492}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Application\Application.csproj", "{6EBBDA55-A55D-4154-89CF-637DAB38FFCF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossCutting", "src\CrossCutting\CrossCutting.csproj", "{22E6AF87-0FD6-4F56-96FA-6630594ECD8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "src\API\API.csproj", "{517DEBAA-B9EA-45A7-93F7-C08FED07BDA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{22E6AF87-0FD6-4F56-96FA-6630594ECD8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22E6AF87-0FD6-4F56-96FA-6630594ECD8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22E6AF87-0FD6-4F56-96FA-6630594ECD8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{517DEBAA-B9EA-45A7-93F7-C08FED07BDA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{517DEBAA-B9EA-45A7-93F7-C08FED07BDA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{517DEBAA-B9EA-45A7-93F7-C08FED07BDA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{517DEBAA-B9EA-45A7-93F7-C08FED07BDA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,5 +50,6 @@ Global
 		{9F19CE68-19F9-4F76-A418-050BF68E12D9} = {FABC52E6-B448-4E78-B723-F61F053CD492}
 		{6EBBDA55-A55D-4154-89CF-637DAB38FFCF} = {FABC52E6-B448-4E78-B723-F61F053CD492}
 		{22E6AF87-0FD6-4F56-96FA-6630594ECD8E} = {FABC52E6-B448-4E78-B723-F61F053CD492}
+		{517DEBAA-B9EA-45A7-93F7-C08FED07BDA3} = {FABC52E6-B448-4E78-B723-F61F053CD492}
 	EndGlobalSection
 EndGlobal
